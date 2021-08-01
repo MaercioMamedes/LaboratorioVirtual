@@ -27,3 +27,8 @@
     Ajuste da home do projeto, algumas inconsistências estão sendo encontradas na formatação das imagens, do menu secundário
     da página. Está sendo necessário encontrar mecanismos de formatação que torne a visualização das imagens de forma mais
     amigável.
+
+        23:18
+    
+    Próxima etapa da home será, a finalização do menu de navegação
+
