@@ -1,0 +1,5 @@
+03/07/2021 08:24
+    Na primeira aplicação do módulo Matemática, utilizou-se da função isset. Para fazer o tratamento de erro
+    da entrada de informação.
+
+    

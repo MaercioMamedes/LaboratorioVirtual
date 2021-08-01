@@ -1,0 +1,29 @@
+19/06/2021 00:08
+
+    Realizada preparação do ambiente de estudo do PHP, elaborando o exercícios de lançamento oblíquo.
+    As atividades pendentes estão na formatação do ângulo para graus, e escrever a unidade de medida
+    da velocidade média.
+    
+19/06/2021  13:45
+    O servidor apache só reconhece o arquivo index.html, para página inicial
+
+
+ 27/06/2021 23:01
+
+    Definido um esquema para plataforma de estudo. Esse projeto será fundamentado em três pilares de
+    interação: Física, Matemática e Tecnologia da Informação. Nesses três pilares, serão construidos, exemplos,
+    conteúdo didático e games educacionais, com o objetivo de proporcionar um melhor aprendizado em tecnologias web
+    assim como os conteúdos científicos envolvidos
+
+    Nesta última atualização, já iniciou-se a segmentaçãos das páginas, inclusive com algumas formatações em CSS3,
+    mas imagens da página principal. 
+
+    O incremento do Projeto se dará com a continuidade dos cursos de PHP e HTML. 
+
+    Será definido como uma funcionalidade, um campo de cadastro para interação do administrador do projeto.
+
+31/07/2021 16:58
+
+    Ajuste da home do projeto, algumas inconsistências estão sendo encontradas na formatação das imagens, do menu secundário
+    da página. Está sendo necessário encontrar mecanismos de formatação que torne a visualização das imagens de forma mais
+    amigável.

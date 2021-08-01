@@ -1,0 +1,137 @@
+body{
+  background-image: url("/_imagens/background-space.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color:rgba(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  }
+div#interface{
+  
+  margin: 100px auto 20px auto;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+figure{
+  position: relative;   /* Pesquisar Mais*/
+  display:  inline-block; /* Deixa as imagens na mesma linha */
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px black;
+
+}
+
+/*Rever todos os conceitos relacionado à esses códigos*/
+figure figcaption{
+  opacity: 0;                                 
+  transition: opacity 1s;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  font-size: 18pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+
+}
+
+figure:hover figcaption{
+  opacity: 1;
+
+}
+
+figcaption a{
+  text-decoration: none;
+  color: white;
+}
+figcaption a:hover{
+  text-decoration: none;
+}
+img{
+  border: solid white;
+
+}
+
+img.imagem-menu{
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+menu {
+  background-color: white;
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  border-radius: 20px; 
+  text-align: left;
+}
+
+img{
+  border-radius: 5px;
+}
+
+p{
+  padding: 10px;
+}
+
+nav.menu{
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+/*nav.menu{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}*/
+
+nav.menu li{
+  list-style: none;
+  display: inline-block;
+  background-color:black;
+  padding: 10px;
+  transition: background-color 1s;
+  border-radius: 10px;
+
+}
+
+nav.menu li:hover{
+  background-color: rgba(98, 97, 97, 0.493);
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+li a:hover{
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+}
+
+footer.rodape p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  position: absolute;
+  bottom: 0px;
+  right: auto;
+  display: block;
+  left: 41%;
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url("/lancamentoObliquo/_imagens/background.jpg");/* Quando o arquivo não está na raiz deve-se colocar a barra na frente da primeira pasta*/
+    background-size: cover;
+}
+
+div#one{
+    background-color: rgba(127, 204, 255, 0.918);
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10%;
+}    
+
+
+div.resultado{
+    padding-top: 20px;
+    background-color: white;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10%;
+    size: 18pt;
+
+}
+
+p{
+    margin-top: 20px;
+    font-size:x-large;
+}
+
+ul{
+    margin: auto;
+}
+h1#titulo{
+    text-align: center;
+    margin-top: 5px;
+}
+
+form{
+    text-align: center;
+}

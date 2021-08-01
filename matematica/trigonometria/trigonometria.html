@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/matematica/trigonometria/_css/estilos.css">
+    <title>Trigonometria</title>
+</head>
+<body>
+    <header>
+        <h1>Estudo do Sinal da imagem das funções seno e cosseno no plano cartesiano</h1>
+        <h2>Escolha um quadrante e verifique os sinais de X e Y.</h2>
+    </header>
+
+    <div>
+        <form action="/matematica/trigonometria/trigonometria.php" method="get">
+            <label for="option">quadrante</label>
+            <select name="quadrante" id="option">
+                <option value="1">1º quadrante</option>
+                <option value="2">2º quadrante</option>
+                <option value="3">3º quadrante</option>
+                <option value="4">4º quadrante</option>
+            </select>
+
+            <input type="submit" value="Verificar">
+        </form>
+    </div>
+
+    <div>
+        <form action="/matematica/trigonometria/tabuaTrigonometrica.php" method="get">
+            <fieldset>
+                <legend>Tábua Trigonométrica</legend>
+                <label for="a1">Limite do ângulo</label>
+                <input type="number" name="angulo" id="a1" step="1"><br>
+                <label for="p1">passo</label>
+                <input type="number" name="pontos" id="p1" step="1">
+
+                <input type="submit" value="mostrar">
+            </fieldset>
+        </form>
+
+    </div>
+
+
+    
+</body>
+</html>
