@@ -8,21 +8,30 @@ body{
   font-size: 24px;
   }
 
+body h1{
+  font-size: 22pt;
+}
+
+body h2{
+  font-size: 20pt;
+}
 
   header nav.menu{
     display: block;
     position: absolute;
-    top: 0px;
+    top: -25px;
     right: 10px;
+    
   }
     
   nav.menu li{
     list-style: none;
     display: inline-block;
     background-color:black;
-    padding: 10px;
+    padding: 5px;
     transition: background-color 1s;
     border-radius: 10px;
+    
   
   }
   
@@ -34,6 +43,7 @@ body{
     color: white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
   
   }
   
@@ -91,15 +101,12 @@ figcaption a:hover{
   text-decoration: none;
 }
 
-img{
-  border: solid white;
-
-}
-
 img.imagem-menu{
-  height: 250px;
-  width: 300px;
+  padding-top: 0px;
+  height: 150px;
+  width: 200px;
   border-radius: 20px;
+  border: solid white;
 }
 
 menu {
@@ -111,25 +118,42 @@ menu {
   text-align: left;
 }
 
-img{
-  border-radius: 5px;
+footer.rodape img.icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  
 }
 
-p{
-  padding: 10px;
-}
-
-footer{
-  text-align: center;
-}
-
-footer.rodape p{
+footer.rodape{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   text-shadow: 2px 2px 2px black;
-  position: absolute;
-  bottom: 0px;
-  right: auto;
-  display: block;
-  left: 41%;
+  width: 100%;
+  position:fixed;
+  bottom: 10px;
+  text-align: center;
+  line-height: 2.0;
+}
+
+
+article#descricao{
+  width: 1000px;
+  height: 175px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  border-radius: 10px;
+  border: solid rgb(3, 3, 54);
+  box-shadow: 2px 2px 2px rgb(9, 30, 88);
+}
+
+article#descricao p{
+  margin: 0px 10px 0px 10px;
+  color: black;
+  font-size: 18pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 2.0;
+
 }
